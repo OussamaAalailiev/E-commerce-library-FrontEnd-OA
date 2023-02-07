@@ -10,14 +10,15 @@ header{
   flex-wrap: wrap;
   right: 0; left: 0; top: 0;
   /*text-align: center;*/
-  justify-content: space-between;
+  justify-content: space-evenly;
   padding: 0.75rem 0.5%;
   z-index: 1000;
 }
 header .logo{
   font-weight: 500;
   font-size: 1.5rem;
-  color: white;
+  /*color: white;*/
+  color: #fccd52;
 }
 header .after__logo{
   font-size: 0.9rem;
