@@ -28,6 +28,12 @@ input{
   color: black;
   font-weight: 500;
 }
+.nav-line-1 {
+ font-weight: 300;
+  line-height: 0.85rem;
+  font-size: 0.75rem;
+  /*padding-top: 0;*/
+}
 header .navbar ul{
   list-style: none;
   color: white;
@@ -55,6 +61,9 @@ header .navbar ul li a{
 }
 .onhover:hover{
   border: 0.01rem solid #f5e79a;
+}
+.no--padding{
+  padding: 0;
 }
 
 
