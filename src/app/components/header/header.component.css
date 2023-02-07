@@ -24,6 +24,10 @@ header .after__logo{
   color: white;
   display: block;
 }
+input{
+  color: black;
+  font-weight: 500;
+}
 header .navbar ul{
   list-style: none;
   color: white;
