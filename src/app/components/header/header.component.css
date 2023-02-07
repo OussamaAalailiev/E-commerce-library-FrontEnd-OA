@@ -7,8 +7,9 @@ header{
   position: fixed;
   background-color: #03182a;
   display: flex;
+  flex-wrap: wrap;
   right: 0; left: 0; top: 0;
-  text-align: center;
+  /*text-align: center;*/
   justify-content: space-between;
   padding: 0.75rem 0.5%;
   z-index: 1000;
@@ -27,6 +28,7 @@ header .after__logo{
 input{
   color: black;
   font-weight: 500;
+  text-indent: 0.5rem;
 }
 .nav-line-1 {
  font-weight: 300;
@@ -58,6 +60,7 @@ header .navbar ul li a{
   padding: 0.5rem;
   color: white;
   display: block;
+  /*float: right;*/
 }
 .onhover:hover{
   border: 0.01rem solid #f5e79a;
@@ -78,7 +81,7 @@ header .navbar ul li a{
   width: 1.5rem;
 }
 input{
-  padding: 1.4rem 0.9rem 0.9rem 0.9rem;
+  padding: 1.4rem 9.9rem 0.9rem 0rem;
 
 }
 
