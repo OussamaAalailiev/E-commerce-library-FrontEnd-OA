@@ -5,7 +5,7 @@
 }
 header{
   position: fixed;
-  background-color: black;
+  background-color: #03182a;
   display: flex;
   right: 0; left: 0; top: 0;
   text-align: center;
@@ -64,6 +64,22 @@ header .navbar ul li a{
 }
 .no--padding{
   padding: 0;
+}
+.searchBtn{
+  /*color: white;*/
+  background-color: #fccd52;
+  /*padding: 0.5rem;*/
+  /*padding: 0.5rem 0.5rem 1rem 0;*/
+  padding: 0.9rem 0.9rem 0.9rem 0.9rem;
+  color: #03182a;
+  cursor: pointer;
+}
+.searchIcon{
+  width: 1.5rem;
+}
+input{
+  padding: 1.4rem 0.9rem 0.9rem 0.9rem;
+
 }
 
 
