@@ -54,6 +54,13 @@
   color: white;
   display: block;
 }
+.myHeader1 .after__logo2{
+  width: 40%;
+  font-size: 0.9rem;
+  padding: 0.5rem;
+  color: white;
+  display: block;
+}
 input{
   color: black;
   font-weight: 500;
