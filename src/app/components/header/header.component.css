@@ -21,7 +21,7 @@
   flex-wrap: wrap;
   right: 0; left: 0; top: 0;
   /*text-align: center;*/
-  justify-content: space-evenly;
+  /*justify-content: space-evenly;*/
   padding: 0.75rem 0.5% 0rem;
   z-index: 1000;
 }
@@ -36,6 +36,9 @@
   padding: 0.25rem 2rem 0.25rem 2rem;
   z-index: 999;
 }
+/*.myHeader1 .navbar ul li a{*/
+/*  float: right;*/
+/*}*/
 .myHeader2 .navbar2 ul{
   float: left;
 }
@@ -131,6 +134,22 @@ input{
   width: 1.5rem;
   padding-top: 0rem;
 
+}
+.shoppingIcon2{
+  /*margin-right: 0.1rem;*/
+  width: 1rem;
+  padding-top: 0rem;
+
+}
+.line--hamburgerMenu{
+  content: "";
+  width: 2rem;
+  /*color: white;*/
+  display: block;
+  background-color: white;
+  /*height: 3px;*/
+  margin-bottom: 0.25rem;
+  padding: 0.12rem;
 }
 .example-spacer {
   flex: 1 1 auto;
