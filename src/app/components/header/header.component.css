@@ -3,24 +3,49 @@
   /*text-transform: capitalize;*/
   color: white;
 }
-header{
-  position: fixed;
+/*header{*/
+/*  position: fixed;*/
+/*  background-color: #03182a;*/
+/*  display: flex;*/
+/*  flex-wrap: wrap;*/
+/*  right: 0; left: 0; top: 0;*/
+/*  !*text-align: center;*!*/
+/*  justify-content: space-evenly;*/
+/*  padding: 0.75rem 0.5% 0rem;*/
+/*  z-index: 1000;*/
+/*}*/
+.myHeader1{
+  position: sticky;
   background-color: #03182a;
   display: flex;
   flex-wrap: wrap;
   right: 0; left: 0; top: 0;
   /*text-align: center;*/
   justify-content: space-evenly;
-  padding: 0.75rem 0.5%;
+  padding: 0.75rem 0.5% 0rem;
   z-index: 1000;
 }
-header .logo{
+.myHeader2{
+  /*position: fixed;*/
+  background-color: #03182a;
+  display: flex;
+  flex-wrap: wrap;
+  right: 0; left: 0; top: 5.5rem;
+  /*text-align: center;*/
+  /*justify-content: space-evenly;*/
+  padding: 0.25rem 2rem 0.25rem 2rem;
+  z-index: 999;
+}
+.myHeader2 .navbar2 ul{
+  float: left;
+}
+.myHeader1 .logo{
   font-weight: 500;
   font-size: 1.5rem;
   /*color: white;*/
   color: #fccd52;
 }
-header .after__logo{
+.myHeader1 .after__logo{
   font-size: 0.9rem;
   padding: 0.5rem;
   color: white;
@@ -39,7 +64,11 @@ input{
   font-size: 0.75rem;
   /*padding-top: 0;*/
 }
-header .navbar ul{
+.myHeader1 .navbar ul{
+  list-style: none;
+  color: white;
+}
+.myHeader2 .navbar2 ul{
   list-style: none;
   color: white;
 }
@@ -54,11 +83,23 @@ header .navbar ul{
   transform: rotate(45deg);
   -webkit-transform: rotate(45deg);
 }
-header .navbar ul li{
+.myHeader1 .navbar ul li{
   position: relative;
   float: left;
 }
-header .navbar ul li a{
+.myHeader2 .navbar2 ul li{
+  position: relative;
+  float: left;
+}
+.myHeader1 .navbar ul li a{
+  font-size: 0.9rem;
+  padding: 0.5rem;
+  color: white;
+  /*display: block;*/
+  display: inline-block;
+  /*float: right;*/
+}
+.myHeader2 .navbar2 ul li a{
   font-size: 0.9rem;
   padding: 0.5rem;
   color: white;
@@ -90,6 +131,9 @@ header .navbar ul li a{
   width: 1.5rem;
   padding-top: 0rem;
 
+}
+.example-spacer {
+  flex: 1 1 auto;
 }
 /*input{*/
 /*  width: 80%;*/
