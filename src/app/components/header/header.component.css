@@ -29,7 +29,7 @@
   display: flex;
   flex-wrap: wrap;
   right: 0; left: 0; top: 5.5rem;
-  padding: 0.25rem 2rem 0.25rem 2rem;
+  padding: 0.25rem 2rem 0.25rem 1.5rem;
   z-index: 999;
 }
 /*.myHeader1 .navbar ul li a{*/
@@ -111,7 +111,7 @@ input{
 
   /*float: right;*/
 }
-.myHeader2 .navbar2 ul li a{
+.displayLinkOfHeader2{
   font-size: 0.875rem;
   padding: 0.5rem;
   color: white;
@@ -119,6 +119,25 @@ input{
   display: inline-block;
   /*float: right;*/
 }
+.displayLastLinkOfHeader2{
+  font-size: 0.875rem;
+  padding: 0.5rem;
+  margin-left: 28.74rem;
+  font-weight: 600;
+  color: white;
+  /*display: block;*/
+  display: inline-block;
+  float: right;
+  /*float: right;*/
+}
+/*.myHeader2 .navbar2 ul li a{*/
+/*  font-size: 0.875rem;*/
+/*  padding: 0.5rem;*/
+/*  color: white;*/
+/*  !*display: block;*!*/
+/*  display: inline-block;*/
+/*  !*float: right;*!*/
+/*}*/
 .onhover:hover{
   border: 0.01rem solid #f5e79a;
 }
